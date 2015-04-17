@@ -1,0 +1,28 @@
+{
+  "name": "renhe",
+  "version": "0.0.0",
+  "description": "test",
+  "main": "app",
+  "authors": [
+    "bill"
+  ],
+  "license": "MIT",
+  "homepage": "ybbnotes.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4"
+  },
+  "overrides": {
+    "bootstrap":{
+      "main":[
+        "dist/js/bootstrap.js"
+      ]
+    }
+  }
+}
